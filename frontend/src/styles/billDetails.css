@@ -1,0 +1,97 @@
+.bill-details-page {
+    padding: 20px;
+}
+
+.bill-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.bill-card h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.bill-info {
+    margin-bottom: 10px;
+    color: #334155;
+}
+
+.bill-info strong {
+    color: #0f172a;
+}
+
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.items-table th {
+    background: #f8fafc;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.items-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.items-table tr:hover {
+    background: #f8fafc;
+}
+
+.summary {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.summary p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.grand-total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-top: 15px;
+}
+
+.bill-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.reprint-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reprint-btn:hover {
+    background: #1d4ed8;
+}
+
+.back-btn {
+    background: #64748b;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #475569;
+}

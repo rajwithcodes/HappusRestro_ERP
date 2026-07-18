@@ -1,0 +1,103 @@
+.bills-page {
+    padding: 20px;
+}
+
+.bills-page h1 {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.search-input {
+    width: 350px;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    border-color: #2563eb;
+}
+
+.bill-count {
+    margin-bottom: 20px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.bills-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.bills-table th {
+    background: #f8fafc;
+    color: #1e293b;
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.bills-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.bills-table tr:hover {
+    background: #f9fafb;
+}
+
+.view-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.view-btn:hover {
+    background: #1d4ed8;
+}
+
+.payment-upi {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.payment-cash {
+    color: #ea580c;
+    font-weight: 600;
+}
+
+.payment-card {
+    color: #7c3aed;
+    font-weight: 600;
+}
+
+.edit-btn {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.edit-btn:hover {
+    background: #d68910;
+}
+
+.view-btn,
+.edit-btn {
+    min-width: 90px;
+}
